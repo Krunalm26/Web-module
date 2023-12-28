@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Development Fundamentals</title>
+    <link rel="stylesheet" href="index.css">
+  
+    <h2 class="container">
+        <button class="my-button">HTML</button>
+        <button class="my-button">CSS</button>
+        <button class="my-button">JavaScript</button>
+    </h2>
+</head>
+<body class="body">
+    <h1 class="h1">HTML (Hyper Text Markup Language)</h1>
+    <p>HTML is the standard markup language for creating web pages.It describes the structure of a web page using markup.</p>
+    <img src="data:image/png;base64,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" alt="" title="html" height="150" width="130">
+    <nav>
+        <ul>
+            <li>Block Elements: &lt;h1&gt;, &lt;p&gt;, &lt;ul&gt;, &lt;ol&gt;</li>
+            <li>Inline Elements: &lt;i&gt;, &lt;strong&gt;, &lt;image&gt;</li>
+            <li>Attributes: type, src, alt, href</li>
+        </ul>
+    </nav>
+    <div>
+      <table>
+        <thead>
+          <tr>
+            <th>Tag</th>
+            <th>Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>&lt;h1&gt;</td>
+            <td>Main Heading</td>
+          </tr>
+          <tr>
+            <td>&lt;p&gt;</td>
+            <td>Paragraph</td>
+          </tr>
+          <tr>
+            <td>&lt;ul&gt;</td>
+            <td>Unordered List</td>
+          </tr>
+          <tr>
+            <td>&lt;ol&gt;</td>
+            <td>Ordered List</td>
+          </tr>
+          <tr>
+            <td>&lt;div&gt;</td>
+            <td>Generic Container</td>
+          </tr>
+          <tr>
+            <td>&lt;hr&gt;</td>
+            <td>Horizontal Rule</td>
+          </tr>
+          <tr>
+            <td>&lt;header&gt;</td>
+            <td>Header of a section or a page</td>
+          </tr>
+          <tr>
+            <td>&lt;main&gt;</td>
+            <td>main content of a document</td>
+          </tr>
+          <tr>
+            <td>&lt;li&gt;</td>
+            <td>List Item</td>
+          </tr>
+          <tr>
+            <td>&lt;nav&gt;</td>
+            <td>Navigation links</td>
+          </tr>
+          <tr>
+            <td>&lt;form&gt;</td>
+            <td>HTML form</td>
+          </tr>
+          <tr>
+            <td>&lt;footer&gt;</td>
+            <td>footer of a section or a page</td>
+          </tr>
+          <tr>
+            <td>&lt;table&gt;</td>
+            <td>Table</td>
+          </tr>
+          <tr>
+            <td>&lt;article&gt;</td>
+            <td>article content</td>
+          </tr>
+          <tr>
+            <td>&lt;a&gt;</td>
+            <td>Anchor</td>
+          </tr>
+          <tr>
+            <td>&lt;i&gt;</td>
+            <td>Italic</td>
+          </tr>
+          <tr>
+            <td>&lt;b&gt;</td>
+            <td>Bold</td>
+          </tr>
+          <tr>
+            <td>&lt;br&gt;</td>
+            <td>Break</td>
+          </tr>
+          <tr>
+            <td>&lt;strong&gt;</td>
+            <td>Strong/Bold</td>
+          </tr>
+          <tr>
+            <td>&lt;input&gt;</td>
+            <td>Input</td>
+          </tr>
+          <tr>
+            <td>&lt;img&gt;</td>
+            <td>image</td>
+          </tr>
+          <tr>
+            <td>&lt;sub&gt;</td>
+            <td>Subscripted</td>
+          </tr>
+          <tr>
+            <td>&lt;sup&gt;</td>
+            <td>Superscripted</td>
+          </tr>
+          <tr>
+            <td>&lt;span&gt;</td>
+            <td>Span</td>
+          </tr>
+          <tr>
+            <td>type</td>
+            <td>type is attribute written in starting tag</td>
+          </tr>
+          <tr>
+            <td>src</td>
+            <td>attribute written in starting tag to define source of required link.</td>
+          </tr>
+          <tr>
+            <td>alt</td>
+            <td>Alternate</td>
+          </tr>
+          <tr>
+            <td>href</td>
+            <td>Hypertext Reference</td>
+          </tr>
+        </tbody>
+      </table>
+    </div><br>
+    </body>
+    <body class="body">
+        <h1 class="h1">CSS (Cascading Style Sheets)</h1>
+        <p>CSS is used for styling web pages.It describes how elements should be displayed on the screen.</p>
+        <img src="data:image/png;base64,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" alt="" title="html" height="150" width="130">
+        <nav>
+            <ul>
+                <li>Font Properties: font-family, font-size, color</li>
+                <li>Box Model: margin, padding, border</li>
+                <li>Text Properties: text-align, line-height, text-decoration</li>
+            </ul>
+        </nav>
+        <div>
+          <table>
+            <thead>
+              <tr>
+                <th>Property</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>font-family</td>
+                <td>Defines the font of the text</td>
+              </tr>
+              <tr>
+                <td>color</td>
+                <td>sets the text color</td>
+              </tr>
+              <tr>
+                <td>font-size</td>
+                <td>Adjust font size</td>
+              </tr>
+              <tr>
+                <td>font-style</td>
+                <td>The font style property sets the style of the font.</td>
+              </tr>
+              <tr>
+                <td>font-weight</td>
+                <td>The font-weight property controls the thickness or boldness of the text.</td>
+              </tr>
+            </tbody>
+        </table>
+      </div>
+      </body><br>
+      <body class="body">
+        <h1 class="h1">JavaScript</h1>
+        <p>JavaScript is a programming language that enables interactive web pages.It can dynamically modify content.</p>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQB9hZUk1L7_n3YMp22fIo_Vq4QLuF9iclI9a_mC41qcHmJXFbsnAX2rbCfb7a2vzbtN-c&usqp=CAU" alt="" title="html" height="130" width="120">
+        <nav>
+            <ul>
+                <li>Variables and Data Types</li>
+                <li>Functions and Control Structures</li>
+                <li>DOM Manipulation</li>
+            </ul>
+        </nav>
+        <div>
+          <table>
+            <thead>
+              <tr>
+                <th>Property</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Content</td>
+                <td>The content area is defined by the width and height properties.</td>
+              </tr>
+              <tr>
+                <td>Padding</td>
+                <td>The space between the actual content and the border of the element is the padding.</td>
+              </tr>
+              <tr>
+                <td>Border</td>
+                <td>The border surrounds the content and padding and gives the visual border of the element.</td>
+              </tr>
+              <tr>
+                <td>Margin</td>
+                <td>The margin is the space outside the element that separates it from other elements in the layout.</td>
+              </tr>
+            </tbody>
+        </table>
+        </div><br>
+           <center><footer>
+                <h3><p>&copy; 2023 Programming Languages Project</p></h3>
+             </footer></center> 
+
+</html>

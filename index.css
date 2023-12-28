@@ -1,0 +1,66 @@
+
+h2 {
+      background-color:rgba(0,9,64,255);
+      padding: 10px;
+      line-height: 10px;
+      margin-top: 20px;
+      
+  }
+
+        .my-button {
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 2px;
+  
+       }
+
+.my-button:hover {
+  background-color: rgb(209, 221, 42);
+}
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    font-style: italic;
+    color: blueviolet;
+    text-align: left;
+  margin-left: 30px;
+}
+table {
+  border-collapse: collapse;
+  width:100%;
+  
+}
+
+th, td {
+  border: 2px solid black;
+  padding: 8px;
+  text-align: left;
+  spacing:10px;
+  width: 20px;
+}
+
+thead {
+  background-color: #1d80d1;
+}
+
+th {
+  text-transform: uppercase;
+  color:white;
+  
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+h3{
+  background-color:rgba(0,9,64,255);
+  padding: 20px;
+  line-height: 20px;
+  margin: bottom 0;
+  color: white;
+  
+}
